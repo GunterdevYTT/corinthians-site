@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  font-family: "Arial";
+  color: white;
+  text-transform: lowercase;
+  background: linear-gradient(135deg, #000000, #8b0000);
+}
+
+header {
+  padding: 20px;
+  text-align: center;
+  font-variant: small-caps;
+  font-size: 28px;
+  border-bottom: 2px solid white;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-variant: small-caps;
+  padding: 8px 15px;
+  border: 1px solid white;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  background: white;
+  color: black;
+}
+
+.container {
+  padding: 20px;
+  font-variant: small-caps;
+}
